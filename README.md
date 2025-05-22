@@ -16,8 +16,10 @@ A collection of beats created between January and May 2025
 - Remote Life _(Sample: Tomoko Kuwae - 二つの愛)_
 - Routine _(Sample: unknown)_
 - Way Down _(Sample: Tommy Tate - Let Us Be Heard A Prayer For Peace)_
-- Bronx In My Heart
-  \*Samples:
+
+  **Bronx In My Heart**
+  _Samples:_
+
 - Johnny Mathis - I Just Wanted To Be Me
 - Martyn Vartazaryan - A Place in the Sun
 - Merge - What Makes You Wanna Lie to Me\*
