@@ -8,7 +8,7 @@
 
     <title>Back To Klassik Vol.2</title>
 
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
   </head>
@@ -25,17 +25,19 @@
     </header>
 
     <main>
-      <section id="audio" class="audio">
-        <div class="container">
-          <h1></h1>
-          <p></p>
-          <a href="#services" class="btn"></a>
-          <audio controls>
-            <source src="./audio/Chains.mp3" type="audio/mpeg" />
-            <source src="./audio/Connection.mp3" type="audio/mpeg" />
-          </audio>
+      <div class="audio-player">
+        <audio id="audio" src=""></audio>
+
+        <div class="controls">
+          <button id="play-pause">▶️</button>
+          <input type="range" id="seek" value="0" step="1" />
+          <span id="current-time">0:00</span> / <span id="duration">0:00</span>
         </div>
-      </section>
+
+        <ul id="tracklist">
+          <!-- Треки добавятся через JS -->
+        </ul>
+      </div>
     </main>
 
     <footer class="footer">
@@ -44,6 +46,6 @@
       </div>
     </footer>
 
-    <script src="scripts/main.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
